@@ -5,7 +5,7 @@ const randomTag = document.getElementById('randomize')
 let data = []
 
 // Let's load in the real data
-fetch('http://api.superhi.com/api/test/quotes')
+fetch('https://api.superhi.com/api/test/quotes')
   .then(response => response.json())
   .then(jsonData => {
     data = jsonData
