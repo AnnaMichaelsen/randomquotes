@@ -4,8 +4,16 @@ const randomTag = document.getElementById('randomize')
 
 let data = []
 
+// Let's load in the real data
+fetch('quotes.json').then(function (response) {
+  return response.json()
+}).then(function (jsonData) {
+  data = jsonData
+  getQuote()
+})
+
 const getQuote = function () {
-  if (data) {
+  if (data.length > 0) {
     // Get a random quote
     const randomNumber = Math.floor(Math.random() * data.length)
     const randomQuote = data[randomNumber]
@@ -15,8 +23,6 @@ const getQuote = function () {
     authorTag.innerHTML = randomQuote.author
   }
 }
-
-getQuote()
 
 // Run getQuote on click of randomize
 randomTag.addEventListener('click', function () {

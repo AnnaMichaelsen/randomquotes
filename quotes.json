@@ -1,14 +1,14 @@
 [
   {
-    quote: 'Good design is invisible',
-    author: 'Jared Spool'
+    "quote": "Good design is invisible",
+    "author": "Jared Spool"
   },
   {
-    quote: 'Better safe than sorry',
-    author: 'Alice in Wonderland'
+    "quote": "Better safe than sorry",
+    "author": "Alice in Wonderland"
   },
   {
-    quote: 'I`m blue da ba de da ba da',
-    author: 'Blue Bee'
+    "quote": "I'm blue da ba de da ba da",
+    "author": "Blue Bee"
   }
 ]
