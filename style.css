@@ -8,23 +8,23 @@ body {
 
 section {
   max-width: 600px;
-  padding: 30px;
+  padding: 70px;
 }
 
 footer {
   position: fixed;
   bottom: 0;
   left: 0;
-  width: calc(100% - 60px);
+  width: calc(100% - 140px);
   text-align: right;
-  padding: 30px;
+  padding: 70px;
 }
 
 h1 {
   font-size: 60px;
   font-weight: 400;
   margin-top: 0;
-  text-indent: -0.4em;
+  text-indent: -0.45em;
 }
 
 h1.text-small {
