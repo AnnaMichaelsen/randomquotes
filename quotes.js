@@ -30,7 +30,7 @@ const getQuote = function () {
       quoteTag.innerHTML = '&ldquo;' + jsonData.quote + '&rdquo;'
       authorTag.innerHTML = '— ' + jsonData.author
 
-      if (jsonData.quote.lenght > 100) {
+      if (jsonData.quote.length > 100) {
         quoteTag.classList.add('text-small')
       } else {
         quoteTag.classList.remove('text-small')
