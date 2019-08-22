@@ -5,12 +5,12 @@ const randomTag = document.getElementById('randomize')
 let data = []
 
 // Let's load in the real data
-fetch('quotes.json').then(function (response) {
-  return response.json()
-}).then(function (jsonData) {
-  data = jsonData
-  getQuote()
-})
+fetch('http://api.superhi.com/api/test/quotes')
+  .then(response => response.json())
+  .then(jsonData => {
+    data = jsonData
+    getQuote()
+  })
 
 const getQuote = function () {
   if (data.length > 0) {
