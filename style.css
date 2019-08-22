@@ -2,6 +2,8 @@ body {
   font-family: "Sauce Grotesk", sans-serif;
   margin: 0;
   background-color: rgb(255, 210, 210);
+  font-size: 20px;
+  transition: background-color .5s ease-in-out;
 }
 
 section {
@@ -19,9 +21,14 @@ footer {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 400;
   margin-top: 0;
+  text-indent: -0.4em;
+}
+
+h1.small-text {
+  font-size: 40px;
 }
 
 a {
